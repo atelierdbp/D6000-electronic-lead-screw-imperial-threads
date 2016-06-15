@@ -153,11 +153,7 @@ void button()          //detects when the rotary switch button is pushed and tog
    {
    button();
    thread_parameters();
- //  lcd.setCursor(9,0);                //next three lines checks the output of the divisor against the input delivered running the lathe for a brief period
- // lcd.print(input_counter);           //we measure the number of input pulses as the parameter input_counter 
- //  lcd.setCursor(9,1);
- //  lcd.print(output_counter);        //we measure the number of output pulses from the parameter output_counter.  The ratio input/output should equal 'divisor' chosen
-   }
+    }
    
 
  
