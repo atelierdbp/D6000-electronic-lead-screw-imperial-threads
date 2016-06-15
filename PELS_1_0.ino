@@ -15,6 +15,9 @@ The inputs to the Arduino which are needed are as follows:
   - THe step input of the stepper motor controller comes from Arduino pin 13. 
   - Output from Arduino pin 7 goes to a voltage divider which is connected to pin 6 of the LS7184 chip to changes it "mode". 
   
+  Be sure to download the appropriate library for the LCD display which can be found at
+  https://learn.adafruit.com/rgb-lcd-shield/using-the-rgb-lcd-shield
+  
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
